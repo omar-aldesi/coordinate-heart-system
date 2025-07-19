@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](#)
+[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](osf.io/tpv6j_v2/)
 
 ## 📚 Overview
 
@@ -30,11 +30,11 @@ This implementation serves as a practical tool for researchers, students, and pr
 
 **Citation**: 
 ```
-Aldesi, O. (Year). Coordinate Heart System: A Geometric Framework for Emotion Representation. 
-[Journal/Conference Name]. [Add DOI/Link here]
+Aldesi, O. (2025). Coordinate Heart System: A Geometric Framework for Emotion Representation. 
+[OSF]. [osf.io/tpv6j_v2/]
 ```
 
-**Paper Link**: [Insert research paper link here]
+**Paper Link**: [osf.io/tpv6j_v2/]
 
 ## 🚀 Quick Start
 
@@ -49,7 +49,7 @@ Aldesi, O. (Year). Coordinate Heart System: A Geometric Framework for Emotion Re
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/[your-username]/coordinate-heart-system.git
+git clone https://github.com/[omar-aldesi]/coordinate-heart-system.git
 cd coordinate-heart-system
 ```
 
@@ -233,21 +233,6 @@ pip install python-dotenv
 - **Cross-validation**: Validate emotion theories using computational methods
 - **Interdisciplinary Work**: Bridge computer science and psychology research
 
-## 📊 Output Interpretation
-
-### Coordinate System
-- **X-axis**: Valence (negative ← 0 → positive)
-- **Y-axis**: Arousal (low ← 0 → high)
-- **Coordinates**: Continuous values representing emotional positioning
-
-### Stability Metrics
-- **Range**: 0.0 (highly unstable) to 1.0 (perfectly stable)
-- **Interpretation**: Measures emotional consistency and predictability
-
-### Contextual Drain
-- **Factors**: Identified contextual elements affecting emotional state
-- **Drain Value**: Quantified impact of contextual factors (0.0 - 1.0)
-
 ## 🛠️ Customization
 
 ### Extending the Framework
@@ -274,7 +259,7 @@ class ExtendedCoordinateHeartSystem(CoordinateHeartSystem):
 ## 📈 Performance Considerations
 
 - **LLM Response Time**: Depends on model complexity and server load
-- **CHS Analysis Time**: Typically < 100ms for standard text inputs
+- **CHS Analysis Time**: Typically < 1ms for standard text inputs
 - **Memory Usage**: Minimal for single analysis, scalable for batch processing
 - **Accuracy**: Validated against psychological emotion models (see research paper)
 
@@ -305,7 +290,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For academic inquiries, research collaboration, or technical support:
 
 - **Author**: Omar Aldesi
-- **Email**: [your.email@domain.com]
+- **Email**: [coordinate.heart.system@gmail.com]
 - **Research Profile**: [Link to academic profile]
 - **Issues**: Use GitHub Issues for bug reports and feature requests
 
@@ -317,9 +302,7 @@ For academic inquiries, research collaboration, or technical support:
 
 ## 📚 References
 
-1. Aldesi, O. (Year). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [Journal/Conference]
-2. [Additional relevant research papers]
-3. [Foundational emotion psychology references]
+1. Aldesi, O. (2025). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [OSF]
 
 ---
 

@@ -1,6 +1,8 @@
-from typing import Dict
-
 from dotenv import load_dotenv
+import os
+import json
+import requests
+from typing import Dict, Any,Tuple
 
 load_dotenv()
 
@@ -90,11 +92,6 @@ def create_llm_prompt(text: str) -> str:
 
     Provide your analysis as a valid JSON object following the exact format above."""
     return prompt
-
-import os
-import json
-import requests
-from typing import Dict, Any, Optional, Tuple
 
 
 def get_available_llm() -> Tuple[str, str, str]:

@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](https://osf.io/preprints/psyarxiv/tpv6j_v2)
+[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](#)
 
 ## 📚 Overview
 
@@ -30,11 +30,11 @@ This implementation serves as a practical tool for researchers, students, and pr
 
 **Citation**: 
 ```
-Aldesi, O. (2025). Coordinate Heart System: A Geometric Framework for Emotion Representation. 
-[OSF]. [https://osf.io/preprints/psyarxiv/tpv6j_v2]
+Aldesi, O. (Year). Coordinate Heart System: A Geometric Framework for Emotion Representation. 
+[Journal/Conference Name]. [Add DOI/Link here]
 ```
 
-**Paper Link**: [https://osf.io/preprints/psyarxiv/tpv6j_v2]
+**Paper Link**: [Insert research paper link here]
 
 ## 🚀 Quick Start
 
@@ -49,7 +49,7 @@ Aldesi, O. (2025). Coordinate Heart System: A Geometric Framework for Emotion Re
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/[omar-aldesi]/coordinate-heart-system.git
+git clone https://github.com/[your-username]/coordinate-heart-system.git
 cd coordinate-heart-system
 ```
 
@@ -71,7 +71,58 @@ conda activate chs_env
 pip install -r requirements.txt
 ```
 
-#### 4. Run the Example
+#### 4. Configure Environment Variables
+
+The system requires API keys for LLM integration. Set up your environment:
+
+```bash
+# Copy the example environment file
+cp .env.example .env
+```
+
+Edit the `.env` file with your API keys:
+
+```bash
+# Required: At least one LLM provider API key
+GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+GEMINI_MODEL=gemini-2.5-flash
+
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+ANTHROPIC_BASE_URL=https://api.anthropic.com/v1/messages
+ANTHROPIC_MODEL=claude-sonnet-4-20250514
+
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_BASE_URL=https://api.openai.com/v1/chat/completions
+OPENAI_MODEL=gpt-4o-mini
+```
+
+**⚠️ Important Security Notes:**
+- Never commit your `.env` file to version control
+- The `.env` file is already included in `.gitignore`
+- Keep your API keys secure and private
+- For production use, consider using environment variable management tools
+
+#### 5. Obtain API Keys
+
+Choose at least one LLM provider:
+
+**Google Gemini** (Recommended for research):
+- Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+- Create a new API key
+- Free tier available for research use
+
+**Anthropic Claude**:
+- Sign up at [Anthropic Console](https://console.anthropic.com/)
+- Generate API key in your dashboard
+- Academic discounts may be available
+
+**OpenAI GPT**:
+- Create account at [OpenAI Platform](https://platform.openai.com/)
+- Navigate to API keys section
+- Note: Paid service, credits required
+
+#### 6. Run the Example
 
 ```bash
 python main.py
@@ -102,7 +153,7 @@ The system will analyze the provided text and display:
 ----------------------------------------
 💫 EMOTION INTENSITIES
 ----------------------------------------
-    Fear:  ██████░░░░░░░░░░░░░░ 0.300
+    Fear: ██████░░░░░░░░░░░░░░ 0.300
     Pride: ██░░░░░░░░░░░░░░░░░░ 0.100
   Sadness: ████░░░░░░░░░░░░░░░░ 0.200
 
@@ -134,6 +185,30 @@ The system analyzes eight primary emotions:
 - **Pride**: Positive, achievement-based emotions
 - **Guilt**: Negative, self-critical emotions
 - **Love**: Positive, connection-based emotions
+
+## 🛠️ Troubleshooting
+
+### Common Issues
+
+**"No module named 'dotenv'" Error**:
+```bash
+pip install python-dotenv
+```
+
+**"API key not found" Error**:
+- Ensure `.env` file exists in project root
+- Check that API keys are properly set (no quotes needed)
+- Verify the API key is valid and has sufficient credits
+
+**"Connection Error"**:
+- Check your internet connection
+- Verify API endpoint URLs in `.env` file
+- Ensure API service is operational
+
+**For Academic Users**:
+- Many universities provide research credits for cloud APIs
+- Contact your IT department for institutional API access
+- Consider using free tiers for initial testing and development
 
 ## 🔬 Research Applications
 
@@ -230,7 +305,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For academic inquiries, research collaboration, or technical support:
 
 - **Author**: Omar Aldesi
-- **Email**: [coordinate.heart.system@gmail.com]
+- **Email**: [your.email@domain.com]
+- **Research Profile**: [Link to academic profile]
 - **Issues**: Use GitHub Issues for bug reports and feature requests
 
 ## 🙏 Acknowledgments
@@ -241,7 +317,9 @@ For academic inquiries, research collaboration, or technical support:
 
 ## 📚 References
 
-Aldesi, O. (2025). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [OSF : https://osf.io/preprints/psyarxiv/tpv6j_v2]
+1. Aldesi, O. (Year). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [Journal/Conference]
+2. [Additional relevant research papers]
+3. [Foundational emotion psychology references]
 
 ---
 

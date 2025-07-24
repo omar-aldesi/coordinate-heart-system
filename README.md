@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](osf.io/tpv6j_v2/)
+[![Research Paper](https://img.shields.io/badge/Research-Paper-red.svg)](https://arxiv.org/abs/2507.14593)
 
 ## 📚 Overview
 
@@ -31,10 +31,10 @@ This implementation serves as a practical tool for researchers, students, and pr
 **Citation**: 
 ```
 Aldesi, O. (2025). Coordinate Heart System: A Geometric Framework for Emotion Representation. 
-[OSF]. [osf.io/tpv6j_v2/]
+[arXiv]. [arXiv:2507.14593](https://arxiv.org/abs/2507.14593)
 ```
 
-**Paper Link**: [osf.io/tpv6j_v2/]
+**Paper Link**: [arXiv:2507.14593](https://arxiv.org/abs/2507.14593)
 
 ## 🚀 Quick Start
 
@@ -49,7 +49,7 @@ Aldesi, O. (2025). Coordinate Heart System: A Geometric Framework for Emotion Re
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/[omar-aldesi]/coordinate-heart-system.git
+git clone https://github.com/omar-aldesi/coordinate-heart-system.git
 cd coordinate-heart-system
 ```
 
@@ -290,8 +290,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For academic inquiries, research collaboration, or technical support:
 
 - **Author**: Omar Aldesi
-- **Email**: [coordinate.heart.system@gmail.com]
-- **Research Profile**: [Link to academic profile]
+- **Email**: [2441394@std.hu.edu.jo]
+- **Research Profile**: [https://scholar.google.com/citations?user=-vS_-XcAAAAJ&hl=en]
 - **Issues**: Use GitHub Issues for bug reports and feature requests
 
 ## 🙏 Acknowledgments
@@ -302,7 +302,7 @@ For academic inquiries, research collaboration, or technical support:
 
 ## 📚 References
 
-1. Aldesi, O. (2025). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [OSF]
+1. Aldesi, O. (2025). "Coordinate Heart System: A Geometric Framework for Emotion Representation." [arXiv preprint arXiv:2507.14593](https://arxiv.org/abs/2507.14593)
 
 ---
 
